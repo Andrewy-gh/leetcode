@@ -1,4 +1,4 @@
-entrypoint = "Easy/roman-to-integer.js"
+entrypoint = "Easy/plus-one.js"
 
 hidden = [".config"]
 
