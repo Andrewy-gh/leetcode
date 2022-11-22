@@ -48,6 +48,22 @@ var isHappy = function(n) {
   return true
 };
 
+var isHappy = function(n) {
+  const addSquares = (num) => {
+    let sum = 0
+    while (num > 0) {
+      sum += Math.pow(num % 10, 2)
+      num = Math.floor(num / 10)
+    }
+    return sum
+  };
+  let set = new Set()
+  while (n !== 1 && !set.has(n)) {
+    set.add(n)
+    n = addSquares(n)
+  }
+  return n === 1
+}
 
 
 n = 19
