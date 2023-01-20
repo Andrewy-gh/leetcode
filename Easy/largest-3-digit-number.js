@@ -46,6 +46,16 @@ var largestGoodInteger = function(num) {
   return arr.length ? Math.max(...arr).toString().repeat(3) : ''
 };
 
+var largestGoodInteger = function(num) {
+  for (let i = 9; i >= 0; i--) {
+    const max = i.toString().repeat(3)
+    if (num.includes(max)) {
+      return max
+    }
+  }
+  return ''
+};
+
 num = "6777133339"
 console.log(largestGoodInteger(num))//"777"
 
