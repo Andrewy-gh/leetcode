@@ -42,6 +42,11 @@ var thirdMax = function (nums) {
   return distinct[2] !== undefined ? distinct[2] : distinct[0];
 };
 
+var thirdMax = function(nums) {
+  const arr = Array.from(new Set(nums.sort((a, b) => b - a)))
+  return arr.length >= 3 ? arr[2] : arr[0]
+}
+
 nums = [3, 2, 1];
 console.log(thirdMax(nums)); //1
 nums = [1, 2];
