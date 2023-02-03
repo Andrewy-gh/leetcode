@@ -44,6 +44,28 @@
 
 // Follow-up: Can you implement the queue such that each operation is amortized O(1) time complexity? In other words, performing n operations will take overall O(n) time even if one of those operations may take longer.
 
+// Pseudo Code:
+// Initialize two stacks
+// Stack1 is the in stack, where order is kept
+// Stack2 is the out stack, used to maintain order
+// New Arrivals go into stack1
+
+// Push operation:
+// If stack1 is not empty
+// Move items to stack2, pushing into empty stack2
+// Push new item to empty stack1
+// If stack2 is not empty: begin restack items into stack1
+// old items go on top of new item
+// push to maintain stack2 emptiness
+
+// Pop:
+// pop() the last item of the stack1 array, which is top of stack
+
+// Peek:
+// return last item of the stack1 array, which is top of stack
+
+// isEmpty:
+// return boolean if stack1 is empty
 
 var MyQueue = function() {
     this.s1 = []
