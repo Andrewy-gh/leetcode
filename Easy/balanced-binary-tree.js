@@ -62,3 +62,26 @@ var isBalanced = function(root) {
 
   return dfs(root)[0]
 };
+
+//  Solution 2, -1 equals false
+var isBalanced = function(root) {
+  const dfs = (root)  => {
+    if (!root) {
+      return 0
+    }
+    const leftHeight = dfs(root.left)
+    if (leftHeight === -1) {
+      return -1
+    } 
+    const rightHeight = dfs(root.right)
+    if (rightHeight === -1) {
+      return -1
+    }
+    if (Math.abs(leftHeight - rightHeight) > 1) {
+      return -1
+    }
+    return Math.max(leftHeight, rightHeight) + 1
+  }
+
+  return dfs(root) !== -1
+};
