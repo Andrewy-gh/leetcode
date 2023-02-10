@@ -31,6 +31,19 @@
 
 
 // Dynamic Programming
+// PSEUDO CODE:
+// one = 1, step 4, second to last, only one method to get to 5:
+// 1 step, 2 steps will have you overshoot
+
+// two = 1, step 5, last step, if we start here at 5, only one method to // get to 5: 0 steps, 1 method
+
+// at step 3: you have one step to get to 4, or two steps to get 5,
+// having calculate 4 and 5, we know there are two methods available
+
+// at step 2: we have a 2 initial methods which lead us to steps 3 and // 4. fn(3) = 2 and fn(4) = 1 so 2 + 1 = 3 methods availble to us.
+
+// Two variables are initialized and we carry on until the one variable
+// gets to zero. We start at 0 until step 5 so 6 steps total. Only need // to calculate 4 which is n - 1 as n = 5 in this case.
 var climbStairs = function(n) {
     let one = 1
     let two = 1
@@ -49,6 +62,18 @@ var climbStairs = function(n) {
 };
 
 // Memoization
+// PSEDUO CODE:
+// Base Cases:
+// At n = 1, there's only one method, take one step
+// At n = 2, there's two methods: take one step  or take two steps
+// initialize memo object
+// input 1 and 2 base cases into our memo object
+// initialize helper function: climb
+// if n is in memo
+// retrieve the  value of at memo[n]
+// else memo[n] is equal to climb(n-1) + climb(n-2), using recursion
+// return memo[n]
+// finally main function body return climb(n)
 var climbStairs = function(n) {
   const memo = {}
   memo[1] = 1
