@@ -18,6 +18,27 @@
 //     a and b consist only of '0' or '1' characters.
 //     Each string does not contain leading zeros except for the zero itself.
 
+// PSEUDO CODE:
+// Variables to initialize:
+// result as an empty string
+// carry as 0
+// total to calculate a, b and total values as undefined
+// char as undefined
+// reverse both a and b
+// create a for loop with the stop condition of reaching 
+// the max of a or b length
+// create two condiontal variables:
+// if i is out of bounds for a or b, make that variable 0
+// total = digita + digitb + carry
+// modding total by 2 handles all scenarios:
+// 1 % 2 = 1
+// 2 % 2 = 0
+// 3 % 2 = 1
+// Carry is handled by Math.floor(total / 2)
+// Any total from 1 - 3 will return a 1 to carry
+// if carry is true at the end add one more '1' to the front
+// return result
+
 var addBinary = function(a, b) {
   let result = ''
   let carry = 0
