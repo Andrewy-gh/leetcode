@@ -5,4 +5,4 @@ This repo contains solutions to leetcode coding challenges.
 
 | Stack      | Difficulty |
 | ----------- | ----------- |
-| [71. Simplify Path](./medium/simplify-path.ts)      | Medium       |
+| [71. Simplify Path]("./medium/simplify-path.ts")      | Medium       |
