@@ -6,3 +6,8 @@ This repo contains solutions to leetcode coding challenges.
 | Stack      | Difficulty |
 | ----------- | ----------- |
 | [71. Simplify Path](Medium/simplify-path.ts)      | Medium       |
+
+
+| Hashmap      | Difficulty |
+| ----------- | ----------- |
+| [1. Two Sum](Easy/two-sum.js)      | Easy       |
