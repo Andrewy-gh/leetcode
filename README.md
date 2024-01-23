@@ -1,13 +1,14 @@
 # Leetcode Solutions
-This repo contains solutions to leetcode coding challenges. 
+
+This repo contains solutions to leetcode coding challenges.
 
 ![Andrewy-gh's LeetCode Stats](https://leetcode-stats.vercel.app/api?username=Andyrewy-gh&theme=Dark)
 
-| Stack      | Difficulty |
-| ----------- | ----------- |
-| [71. Simplify Path](Medium/simplify-path.ts)      | Medium       |
+| Stack                                              | Difficulty |
+| -------------------------------------------------- | ---------- |
+| [20. Valid Parentheses](Easy/valid-parentheses.js) | Easy       |
+| [71. Simplify Path](Medium/simplify-path.ts)       | Medium     |
 
-
-| Hashmap      | Difficulty |
-| ----------- | ----------- |
-| [1. Two Sum](Easy/two-sum.js)      | Easy       |
+| Hashmap                       | Difficulty |
+| ----------------------------- | ---------- |
+| [1. Two Sum](Easy/two-sum.js) | Easy       |
