@@ -12,6 +12,7 @@ This repo contains solutions to leetcode coding challenges.
 | -------------------------------------------------- | ---------- |
 | [20. Valid Parentheses](Easy/valid-parentheses.js) | Easy       |
 | [71. Simplify Path](Medium/simplify-path.ts)       | Medium     |
+| [2390. Removing Stars From a String](Medium/removing-stars-from-strings.ts)       | Medium     |
 
 | Hashmap                       | Difficulty |
 | ----------------------------- | ---------- |
