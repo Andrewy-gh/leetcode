@@ -6,6 +6,7 @@ This repo contains solutions to leetcode coding challenges.
 
 | Array / String                                              | Difficulty |
 | -------------------------------------------------- | ---------- |
+| [1768. Merge Strings Alternately](Easy/merge-strings-alternately.ts) | Easy       |
 | [334. Increasing Triplet Subsequence](Medium/increasing-triplet-subsequence.ts) | Medium       |
 
 | Stack                                              | Difficulty |
