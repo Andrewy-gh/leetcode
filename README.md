@@ -13,6 +13,7 @@ This repo contains solutions to leetcode coding challenges.
 | -------------------------------------------------- | ---------- |
 | [20. Valid Parentheses](Easy/valid-parentheses.js) | Easy       |
 | [71. Simplify Path](Medium/simplify-path.ts)       | Medium     |
+| [Evaluate Reverse Polish Notation](Medium/evaluate-reverse-polish-notation.ts)       | Medium     |
 | [735. Asteroid Collision](Medium/asteroid-collision.ts)       | Medium     |
 | [2390. Removing Stars From a String](Medium/removing-stars-from-strings.ts)       | Medium     |
 
