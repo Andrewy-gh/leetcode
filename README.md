@@ -21,3 +21,4 @@ This repo contains solutions to leetcode coding challenges.
 | Hashmap                       | Difficulty |
 | ----------------------------- | ---------- |
 | [1. Two Sum](Easy/two-sum.js) | Easy       |
+| [49. Group Anagrams](Medium/group-anagrams.ts) | Medium       |
