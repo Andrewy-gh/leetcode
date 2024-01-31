@@ -22,3 +22,8 @@ This repo contains solutions to leetcode coding challenges.
 | ----------------------------- | ---------- |
 | [1. Two Sum](Easy/two-sum.js) | Easy       |
 | [49. Group Anagrams](Medium/group-anagrams.ts) | Medium       |
+
+
+| SQL                       | Difficulty |
+| ----------------------------- | ---------- |
+| [1757. Recyclable and Low Fat Products](Easy/recyclable-and-low-fat-products.js) | Easy       |
