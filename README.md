@@ -27,4 +27,4 @@ This repo contains solutions to leetcode coding challenges.
 | SQL                       | Difficulty |
 | ----------------------------- | ---------- |
 | [1757. Recyclable and Low Fat Products](Easy/recyclable-and-low-fat-products.sql) | Easy       |
-| [Find Customer Referee](Easy/find-customer-referee.sql) | Easy       |
+| [584. Find Customer Referee](Easy/find-customer-referee.sql) | Easy       |
