@@ -28,3 +28,4 @@ This repo contains solutions to leetcode coding challenges.
 | ----------------------------- | ---------- |
 | [1757. Recyclable and Low Fat Products](Easy/recyclable-and-low-fat-products.sql) | Easy       |
 | [584. Find Customer Referee](Easy/find-customer-referee.sql) | Easy       |
+| [595. Big Countries](Easy/big-countries.sql) | Easy       |
